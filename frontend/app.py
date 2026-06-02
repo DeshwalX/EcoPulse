@@ -3,7 +3,7 @@ import requests
 import streamlit as st
 
 st.set_page_config(
-    page_title="EcoPulse Predictor", page_icon="🌿", layout="centered"
+    page_title="EcoPulse Predictor", page_icon="🌿", layout="wide"
 )
 
 if "user_id" not in st.session_state:
